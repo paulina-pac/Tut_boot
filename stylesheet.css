@@ -1,0 +1,46 @@
+nav {
+  width: 100%;
+  max-width: 1310px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: lightcoral;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid;
+  padding: 6px;
+  align-self: flex-start;
+  
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-menu {
+display:flex;
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-menu > li,
+.tools > li {
+
+  margin-right: 0.5rem;
+
+}
